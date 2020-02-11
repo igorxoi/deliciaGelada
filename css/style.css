@@ -1,0 +1,1052 @@
+
+@font-face{
+    font-family: amaticbold;
+    src: url(../fontes/amatic.ttf);
+}
+
+@font-face{
+    font-family: aileron;
+    src: url(../fontes/aileronLight.otf);
+}
+
+@font-face{
+    font-family: conforta;
+    src: url(../fontes/geo_sans_light/GeosansLight.ttf);
+}
+
+a{
+    text-decoration:none; 
+    color:#113601;
+}
+
+*{
+    margin: auto;
+    box-sizing:border-box;
+    font-family: amaticbold;  
+    margin-right: auto;
+    margin-left: auto;    
+}
+
+
+h6{
+    font-size: 15px;
+}
+
+.conteudo{
+    height: inherit;
+    width: 1400px;
+}
+
+ul,ol{
+	list-style: none;
+}
+
+/*  área do cabeçalho */
+header{
+    height: 105px;
+    background-color:#FFFFFF;
+    width: 100%;
+    position: fixed;    
+    opacity: 0.8;
+    z-index: 5;
+}
+
+#div_img_nav{
+    height: 105px;
+    width: 10%;
+    float:left;
+    padding-top: 18px;
+    padding-left: 20px;
+}
+
+ /* Menu navegação */ 
+nav{
+    width: 60%;
+    height: 105px;
+    float: left;
+    box-sizing: border-box;
+    
+}
+
+#div_conteudo_nav{
+    height: inherit;
+}
+
+#ul_menu{
+    width: 100%;
+    height: inherit;
+    box-sizing: border-box;
+    padding-top: 45px;    
+}
+
+.li_menu_item{
+    width: 16%;
+    height: inherit;
+    list-style: none;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+    color: #F8AA50;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.li_menu_item:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    color: #43a1b0;
+    cursor: pointer;
+}
+
+.li_menu_item a:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    color: #f8aa50;
+    cursor: pointer;
+}
+
+/* Login usuário */
+#div_form{
+    height: inherit;
+    width: 30%;
+    padding-top: 30px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#div_txt_usuario{
+    margin-left: 20px;
+    
+}
+
+.usuario_senha{
+    font-size: 26px;    
+    font-family: amaticbold;
+    color: #113601;
+}
+
+#div_txt_usuario, #div_txt_senha, #btn_submit_ok{
+    height: 70px;
+    width: 150px;
+    float: left;
+    padding-left: 30px;
+    
+}
+
+#txt_senha, #txt_usuario{
+    font-size: 24px;
+    width: 120px;
+    height: 35px;
+}
+
+#btn_submit_ok{
+    width: 46px;
+    padding-top: 18px;
+    padding-left: 7px;
+    box-sizing: border-box;
+}
+
+#btn_ok{
+    width: 45px;
+    height: 35px;
+    font-size: 22px;
+    margin-top: 11px;
+    background: none;
+    border: 1px solid #00B2B2;
+}
+
+#div_espaco{
+    height: 105px;
+}
+
+#seta{
+    margin-top: 200px;
+    width: 80px;
+    height: 300px;
+    align-items: center;
+    position: fixed;
+    margin-left: 1700px;
+	display: none;
+    transition: 1s;
+}
+
+#seta img{
+    margin-bottom: 15px;
+}
+
+ 
+/* SEÇÃO SLIDER */
+#div_container_slide{
+    height: 700px;
+    width: 1560px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+#slider li, ul{
+	width: 1400px;
+    background-color: #FFFFFF;
+}
+
+#div_slider_li{
+    padding: 0;
+    width: 1400px;
+    height: 630px;
+    float: left;
+}
+
+#slider li img{
+    width: 1350px;
+    height: inherit;
+    background-color: #FFFFFF;
+}
+
+#esquerda{
+    height: 650px;
+    width: 80px;
+    float: left;
+    top:50%;
+    padding-top: 270px;
+    padding-left: 7px;
+}
+
+#direita{
+    height: 650px;
+    width: 80px;
+    float: left;
+    padding-top: 270px;
+    padding-left: 25px;
+}
+ 
+
+/* NAVEGAÇÃO FILTROS */
+#div_conteudo{
+    min-height: 700px;
+    height: auto;
+    overflow: hidden;
+}
+
+#nav_filtros{
+    min-height: 700px;
+    height: inherit;
+    text-transform: capitalize;
+    float: left;
+    width: 300px;
+    text-align: center;    
+}
+
+#div_nav_filtros{
+    min-height: 700px;
+    height: inherit;
+    width: 100%;
+    text-align: center;
+    /* background-color: #000000;  */
+}
+
+.div_filtros{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    min-height: 20px;
+    height: auto;
+    width: inherit;
+    /* font-family: 'conforta'; */
+    font-size: 26px;
+    letter-spacing: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: none;
+    color: #D75E61;
+    cursor: pointer;
+}
+
+#div_nav_filtros h2{
+    font-size: 20px;
+    color: black;
+}
+
+/* AREA PRODUTOS */
+#div_produtos{
+    width: 1100px;
+    min-height: 700px;
+    height: auto;
+    float: left;
+/*    background-color: #43a1b0;*/
+}
+
+#div_produtos_home{
+    width: 100%;
+    min-height: 700px;
+    height: auto;
+    float: left;
+/*    background-color: #43a1b0;*/
+}
+
+#div_titulo_produtos{
+    width: inherit;
+    height: 60px;
+    color: #324777;
+    letter-spacing: 10px;
+    font-size: 40px;
+    padding-left: 60px;
+    padding-top: 17px;
+    text-transform: uppercase;
+}
+
+.div_itens_produtos{
+    width: 326px;
+    height: 550px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+.div_btn_detalhes{
+    height: inherit;
+    width: inherit;
+    background-color: #e8c355d8;
+    visibility: hidden;
+    opacity: 0;
+    padding-top:20px;
+    z-index: 2;
+    float: left;
+}
+
+.div_itens_produtos:hover>.div_btn_detalhes{
+    visibility: visible;
+    opacity: 1;
+    z-index: 2;
+    position: absolute;
+}
+
+.img_itens_produtos{
+    width: inherit;
+    height: 74%;
+    float: left;
+}
+
+.img_itens_produtos img{
+    width: 100%;
+    height: 100%;
+}
+
+.descricao_itens_produtos, .preco_itens_produtos, .nome_itens_produtos{
+    width: inherit;
+    height: 12%;
+    font-size: 28px;
+    padding-left: 20px;
+    padding-right: 10px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.preco_itens_produtos, .nome_itens_produtos{
+    float: left;
+    height: 16%;
+    text-align: center;
+}
+
+.preco_itens_produtos{
+    height: 10%;
+}
+.nome_itens_produtos{
+    padding-top: 15px;
+}
+
+.descricao_itens_produtos{
+    width: inherit;
+    height: 50%;
+}
+
+.div_btn_descricao{
+    width: inherit;
+    min-height: 50%;
+    max-height: 70%;
+    padding-left: 90px;
+    padding-top: 50px;
+    cursor: pointer;
+    
+}
+.btn_descricao{
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #D75E61;
+    float: left;
+}
+
+.btn_descricao h3{
+    font-size: 26px;
+    text-align: center;
+    padding-top: 8px;
+    color: #FFFFFF;
+    float: left;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.seta_combos div{
+    margin-top: 12px;
+    width: 0px;
+    height: 0px;
+    border-top: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid #00B2B2;
+    float: left;
+}
+
+
+
+/* RODAPE */
+/* sistema */
+#div_rodape{
+    height: 200px;
+    background-color: #D75E61;
+    margin-top: 4px;
+}
+ 
+#div_sistema_interno, #div_app{
+    width: 20%;
+    height: inherit;
+    float: left;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#btn_sistema_interno, #btn_baixar_app{
+    border: 3px solid #43a1b0;
+    background: none;
+    color: #FFFFFF;
+    background-color: #43a1b0;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+
+#btn_sistema_interno:hover, #btn_baixar_app:hover{
+    color: #ffffff;
+}
+
+ /* endereco */
+#div_endereco{
+    width: 55%;
+    height: 100%;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    float: left;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+#div_app{
+    width: 25%;
+}
+
+
+
+/* PAGINA CONTATOS */
+#div_conteudo_contato{
+    height: 1030px;
+    padding: 50px;
+}
+
+
+#div_titulo_conteudo_contato, #div_titulo_produto_mes, #div_titulo_nossas_lojas, #div_titulo_curiosidades, #div_titulo_promocoes{
+    height: 110px;
+    width: 510px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #00B2B2;
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+    word-spacing: 10px;
+}
+
+#div_titulo_conteudo_contato{
+    min-width: 560px;
+    
+}
+
+.div_dados_contatos{
+    height: 80px;
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+
+}
+
+.txt_dados_contato, #sltOpcaoContato, .rdo_dados_contato{
+    margin-top: 20px;
+    height: 60px;
+    width: 560px;
+    color: #A0A0A0;
+    font-size: 30px;
+    border: solid 1px #00B2B2;
+    padding-left: 20px;
+}
+
+.asterisco, #asterisco_sexo{
+    height: 20px;
+    width: 30px;
+    color: red;
+    /* background-color: #000000; */
+    float: right;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#asterisco_sexo{
+    /* background-color: #00B2B2; */
+    width: 200px;
+}
+
+#div_mensagem_contatos .asterisco{
+    width: 180px;
+    /* background-color: #00B2B2; */
+}
+
+#rdo_conteudo_feminino, #rdo_conteudo_masculino{
+    padding-top: 30px;
+    height: 60px;
+    width: 200px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    float: left;
+}
+
+.rdo_dados_contato{
+    margin-top: 8px;
+    height: 20px;
+    width: 50px;
+    float: left;
+}
+
+#div_mensagem_contatos{
+    width: 80%;
+    height: 300px;
+
+}
+
+#div_mensagem_contatos{
+    padding-top: 50px;
+    height: 370px;
+    width: 100%;
+    padding-left: 200px;
+    float: left;
+
+    align-items: center;
+}
+
+#txt_mensagem_contato{
+    height: 300px;
+    width: 900px;
+}
+
+#txt_mensagem_contato{
+    font-size: 30px;
+    border: 1px solid #00B2B2;
+    padding: 20px;
+}
+
+#div_btn_contatos{
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin-left: 900px;
+    margin-bottom: 5px;
+}
+
+#btn_enviar{
+    height: 80px;
+    width: 200px;
+    color: #FFFFFF;
+    font-size: 30px;
+    background: none;
+    background-color: #00B2B2;
+    border:solid 1px #00B2B2; 
+}
+
+/* PAGINA PRODUTO DO MÊS */
+#div_conteudo_produto_mes{
+    min-height: 150px;
+    height: auto;
+    padding: 50px;
+}
+
+#div_conteudo_pdt_mes{
+    min-height: 150px;
+    height: auto;
+}
+
+#img_app{
+    margin-right: 10px;
+}
+
+#div_titulo_produto_mes{
+    height: 110px;
+    width: 320px;
+    background-color: #E8C355;
+}
+
+#div_img_produto_mes{
+    margin-bottom: 35px;
+    min-height: 300px;
+    height: auto;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#div_img_produto_mes img{
+    height: 500px;
+    width: 400px;
+}
+
+#div_nome_produto_mes{
+    width: 100%;
+    height: 70px;
+    background-color: #E8C355;
+}
+
+#div_nome_produto_mes h3{
+    color: #000000;
+    font-size: 55px;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+}
+
+#div_drescricao_produto_mes{
+    width: 80%;
+    min-height: 0px;
+    height: auto;
+}
+
+#div_drescricao_produto_mes h3{
+    padding-top: 20px;
+    color: #000000;
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#div_preco_produto_mes{
+    width: 100%;
+    height: 40px;
+    background-color: #E8C355;
+    margin-top: 30px;
+}
+
+#div_preco_produto_mes h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* PAGINA SOBRE */
+#div_conteudo_sobre{
+    min-height: 300px;
+    height: auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+#div_titulo_sobre{
+    height: 110px;
+    width: 200px;
+    background-color: #D75E61;
+    margin-bottom: 10px;
+}
+
+#div_titulo_sobre h3{
+    color: #FFFFFF;
+    font-size: 84px;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+}
+
+#div_descricao_sobre{
+    width: 50%;
+    min-height: 0px;
+    height: auto;
+    padding: 30px;
+    float: left;
+}
+
+#div_descricao_sobre h3{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+#div_imagem_sobre{
+    padding-top: 45px;
+    padding-left: 60px;
+    width: 45%;
+    height: 390px;
+    float: left;
+    /* background-color: #00B2B2; */
+}
+
+#div_imagem_sobre img{
+    height: 280px;
+    width: 470px;
+}
+
+#div_texto_sobre{
+    height: 400px;
+    width: 100%;
+}
+
+#div_missao_visao_valores{
+    margin-top: 20px;
+    min-height: 500px;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+#div_conteudo_missao_sobre, #div_conteudo_visao_sobre, #div_conteudo_valores_sobre{
+    width: 30%;
+    height: 440px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 35px;
+}
+
+#div_imagem_missao img, #div_imagem_visao img, #div_imagem_valores img{
+    height: 107px;
+    width: 108px;
+}
+
+#div_imagem_missao, #div_imagem_visao, #div_imagem_valores{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#div_titulo_missao, #div_titulo_visao, #div_titulo_valores{
+    height: 50px;
+    width: 100%;
+    font-size: 27px;
+    color: #D75E61;
+    text-align: center; 
+}
+
+#div_descricao_missao, #div_descricao_visao, #div_descricao_valores{
+    height: 150px;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* NOSSAS LOJAS */
+#div_conteudo_nossas_lojas{
+    min-height: 280px;
+    height: auto;
+    padding: 50px;
+}
+
+#div_titulo_nossas_lojas{
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+#container_nossas_lojas{
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    overflow: hidden;
+}
+
+.logradouro_lojas{
+    min-height: 100px;
+    height: auto;
+    width: 450px;
+    float: left;
+    margin-left: 135px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#lojas_sao_paulo, #lojas_rio_janeiro{
+    width: 240px;
+    text-align: center;
+    padding-top: 10px;
+    height: 70px;
+    background-color: #00B2B2;
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.numero_lojas{
+    height: 120px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.numero_lojas h3{
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+.dados_lojas{
+    height: 100%;
+    width: 100%;
+}
+
+.dados_lojas h4{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+
+#div_mapas{
+    height: 500px;  
+    width: 100%;
+    background-color: aquamarine;
+    
+}
+
+#div_mapas iframe{
+    height: inherit;    
+    width: inherit;
+    
+}
+
+/* CURIOSIDADES */
+#div_conteudo_curiosidades{
+    min-height: 100px;
+    height: auto;
+    padding: 50px;
+}
+
+#div_titulo_curiosidades{
+    width: 280px;
+    background-color: #D75E61;
+    margin-bottom: 40px;
+}
+
+#conteudo_curiosidades{
+    width: 100%;
+    min-height: 50px;
+    height: auto;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+.div_imagem_curiosidades{
+    height: 300px;
+    width: 40%;
+    color: #D75E61;
+    font-size: 40px;
+    padding: 15px;
+    padding-left: 40px;
+    float: left;
+}
+
+.div_imagem_curiosidades img{
+    height: 280px;
+    width: 420px;
+    
+}
+
+.div_container_curiosidades{
+    min-height: 300px;
+    height: auto;
+    width: 100%;
+}
+
+.div_conteudo_texto_curiosidades{
+    min-height: 300px;
+    height: auto;
+    width: 60%;
+    color: #000000;
+    font-size: 30px;
+    float: left;
+}
+
+.div_titulo_curiosidades{
+    height: 55px;
+    width: 100%;
+    color: #D75E61;
+    font-size: 44px;
+    padding-left: 30px;
+}
+
+.div_subtitulo_curiosidades{
+    height: 55px;
+    width: 100%;
+    color: #ada8a8;
+    font-size: 35px;
+    padding-left: 30px;
+}
+
+.div_texto_curiosidades{
+    min-height: 190px;
+    height: auto;
+    padding-left: 30px;
+    word-spacing: 3px;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+ /* PROMOÇÕES */
+#div_conteudo_promocoes{
+    min-height: 100px;
+    height: auto;
+    overflow: hidden;
+    padding: 50px;
+}
+
+#div_titulo_promocoes{
+    width: 350px;
+    padding-top: 15px;
+    background-color: #E8C355;
+}
+
+#div_produtos_promo{
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.div_produtos_promocoes{
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    overflow: hidden;
+}
+
+#div_conteudo_promocoes .div_itens_produtos{
+    width: 376px;
+    height: 630px;
+    margin-left: 20px; 
+}
+
+#div_conteudo_promocoes .div_itens_produtos:hover>.div_btn_detalhes{
+    visibility: hidden;
+}
+
+#div_conteudo_promocoes .div_itens_produtos .img_itens_produtos{
+    height: 450px;
+}
+
+.div_produtos_promocoes .nome_itens_produtos{
+    height: 50px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.div_produtos_promocoes .preco_itens_produtos{
+    font-size: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;    
+}
+
+.div_produtos_promocoes .preco_itens_produtos h6{
+    font-size: 30px;
+    color: red;
+    text-decoration: line-through
+}
+
+.btn_descricao_promocao{
+    margin-top: 10px;
+    margin-left: 120px;
+    height: 50px;
+    width:140px;
+    cursor: pointer;
+}
+
+.btn_descricao_promocao{
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #D75E61;
+    float: left;
+}
+
+.btn_descricao_promocao h3{
+    font-size: 26px;
+    text-align: center;
+    padding-top: 8px;
+    color: #FFFFFF;
+    float: left;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+
+/* Responsividade para mobile */
+@media only screen and (max-device-width: 700px) {
+
+    /*********** RESPONSIVO DAS PROMOÇÕES **********/
+    #div_conteudo_promocoes{
+        background-color: #00B2B2;
+    }
+
+    
+
+    #div_titulo_conteudo_contato, #div_titulo_produto_mes, #div_titulo_nossas_lojas, #div_titulo_curiosidades, #div_titulo_promocoes{
+        height: 110px;
+        width: 510px;
+        text-align: center;
+        padding-top: 10px;
+        background-color: #00B2B2;
+        color: white;
+        text-transform: uppercase;
+        font-size: 125px;
+        word-spacing: 10px;
+    }
+
+    #div_titulo_promocoes{
+        width: 800px;
+        height: 200px;
+        padding-top: 1vh;
+        background-color: #E8C355;
+    }
+
+    .div_itens_produtos{
+        width: 506px;
+        height: 550px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        background-color: #000000;
+        float: none;
+    }
+
+
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

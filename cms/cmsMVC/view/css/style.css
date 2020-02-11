@@ -1,0 +1,474 @@
+@font-face{
+    font-family: 'amaticbold';
+    src: url(../../../../fontes/amatic.ttf);
+}
+
+@font-face{
+    font-family: 'conforta';
+    src: url(../../../../fontes/geo_sans_light/GeosansLight.ttf);
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    margin: auto;
+    box-sizing:border-box;
+    margin-right: auto;
+    margin-left: auto;   
+}
+
+
+.conteudo{
+    height: inherit;
+    width: 1400px;
+}
+
+
+.conteudo{
+    height: inherit;
+    width: 1400px;   
+}
+
+ /*************** EDICAO PAGINA LOGIN *******************/
+#div_body{ 
+    width: 100vw;
+    background-color: rgba(0, 178, 178,0.8);
+    height: 100vh;
+}
+
+#div_caixa_login{
+    box-shadow: 5px 5px 15px 2px rgba(80,80,80,0.5);
+    border-radius: 5px;
+    transform: translate(0%, 40%);
+    background-color: #ffffff;
+    width: 800px;
+    height:500px;
+}
+
+#div_body_esquerda{
+    height: 100%;
+    width: 300px;
+    background-color: #00B2B2; 
+    float: left;
+}
+
+#div_body_direita{
+    height: 100%;
+    width: 500px;
+    float: left;
+}
+
+#div_img_login{
+    height: 100%;
+    width: inherit;
+    background-color: #00B2B2;
+    padding-top: 160px;
+    padding-left: 23px;
+}
+
+#div_img_login img{
+    height: 150px;
+}
+
+
+#div_back_home{
+    height: 40px;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+#div_back_home a{
+    color: black;
+    font-size: 8px;
+    font-family: 'conforta';
+    float: right;
+}
+
+#div_titulo_login{
+    height: 120px;
+    width: 100%;
+    color: black;
+    font-size: 13px;
+    font-family: 'conforta';
+    text-align: center;
+    padding-top: 40px;
+}
+
+#div_form_login{
+    height: 340px;
+    width: 100%;
+}
+
+#div_input_usuario_login, #div_input_senha_login{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+#div_titulo_input_usuario_login, #div_titulo_input_senha_login{
+    height: 30px;
+    width: 100%;
+    font-family: 'conforta';
+    font-size: 11px;
+    padding-left: 30px;
+}
+
+#input_usuario_login, #input_senha_login{
+    height: 40px;
+    width: 100%;
+    padding: 2px;
+    padding-left: 30px;
+}
+
+#input_usuario_login input, #input_senha_login input{
+    height: 30px;
+    border-radius: 5px;
+    background:none;
+    border:1px solid rgba(80,80,80,0.3);
+    color: rgba(80,80,80,0.9);
+    padding-left: 20px;
+    font-family: 'conforta';
+    font-size: 20px;
+    letter-spacing: 1px;
+    width: 90%;
+}
+
+#div_input_btn_submit_login{
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 80px;
+} 
+
+#div_input_btn_submit_login input{
+    height: 50px;
+    width: 80%;
+    border-radius: 5px;
+    background: none;
+    border: solid 1px #00B2B2;
+    background: #00B2B2;
+    font-size: 20px;
+    font-family: "conforta";
+    font-weight: bold;  
+}
+
+/************ EDIÇÃO DE PRODUTOS **************/
+#div_edicao_conteudo_produtos{
+    height: 547px;
+    font-size: 50px;
+    padding-top: 230px;
+    padding-left: 80px;
+    font-family: 'amaticbold';
+    letter-spacing: 3px;
+    word-spacing: 7px;
+}
+
+#div_edicao_conteudo_produtos{
+    min-height: 150px;
+    height: auto;
+    padding: 50px;
+    overflow: hidden;
+    
+}
+
+#div_titulo_tabela_produtos{
+    height: 100px;
+    width: 100%;
+    font-family: 'amaticbold';
+    letter-spacing: 3px;
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#div_form_conteudo_produtos{
+    min-height: 120px;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#div_nome_produto, #div_preco_produto, #div_preco_promocional_produto{
+    margin-top: 20px;
+    height: 80px;
+    width: 400px;
+    margin-left: 25px;
+     overflow: hidden; 
+    float: left;
+}
+
+#div_titulo_nome_produto, #div_titulo_preco_produto, #div_titulo_preco_promocional_produto,
+#div_titulo_descricao_produto, #div_titulo_imagem_produto{
+    height: 30px;
+    width: 100%;
+    font-size: 18px;
+}
+
+#div_input_nome_produto, #div_input_preco_produto, #div_input_preco_promocional_produto{
+    height: 40px;
+    width: 100%;
+    overflow: hidden;   
+}
+
+#div_titulo_nome_produto input, #div_titulo_preco_promocional_produto input, #div_titulo_preco_produto input{
+    height: 35px;
+    width: 90%;
+    margin-top: 12px;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #E8C355;
+    overflow: hidden;
+    font-size: 21px;
+    font-family: conforta;
+}
+
+.caixa_inputs_produtos{
+    margin-bottom: 30px;
+}
+
+#div_descricao_imagem_produto{
+    margin-top: 20px;
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#div_descricao_produto{
+    height: 100%;
+    width: 700px;
+    float: left;
+    margin-left: 22px;
+}
+
+#div_imagem_produto{
+    height: 100%;
+    width: 530px;
+    float: left;
+    margin-left: 22px;
+}
+
+#div_titulo_descricao_produto textarea{
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;    
+    border-radius: 5px;
+    resize: none;
+    border: 1px solid #E8C355;
+    font-size: 21px;
+    font-family: conforta;
+    padding: 5px;
+    background: none;
+}
+
+#div_titulo_imagem_produto input{
+    margin-top: 20px;
+}
+
+#div_btn_submit_produto{
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    /* background-color: #00B2B2; */
+}
+
+#div_btn_submit_produto select{
+    height: 60px;
+    width: 700px;
+    background: none;
+    border:1px solid #E8C355;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'conforta';
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 2px;
+}
+
+#div_btn_submit_produto input{
+    height: 60px;
+    width: 250px;
+    background: none;
+    border:1px solid #E8C355;
+    border-radius: 5px;
+    margin-right: 50px;
+    background-color: #E8C355;
+    float: right;
+    font-size: 20px;
+    font-family: 'conforta';
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 2px;
+}
+
+#div_tabela_produtos{
+    min-height: 60px;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#div_titulo_tabela_produto_listagem{
+    height: 60px;
+    width: 100%;
+    font-family: 'amaticbold';
+    letter-spacing: 3px;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+#tabela_produtos{
+    min-height: 100px;
+    height: auto;
+    width: 100%;
+}
+
+/********* TABELA PRODUTOS *********/
+#consulta{
+    min-height: 30px;
+    height: auto;
+    width: 100%;
+}
+#consulta table{
+    background-color: #E8C355;    
+    width: 100%;
+    border-radius: 8px;
+    color: #000000;
+    font-family: conforta;
+    text-transform: uppercase;
+    letter-spacing: 3px; 
+    font-size: 15px;
+}
+
+#td_cabecalho_produtos{
+    height: 50px;
+}
+
+#td_linha_produtos{
+    width: 100px;
+    background-color:#fae196 ;
+    min-height: 55px;
+    height: auto;
+    font-family: conforta;
+    text-transform: none;
+}
+
+#consulta table thead tr th{
+    padding: 10px;
+    
+}
+
+#td_linha_produtos th a img{
+    height: 20px;
+    width: 20px;
+}
+
+#td_linha_produtos th img {
+    height: 100px;
+}
+
+
+/********* PAGINA DE CATEGORIA *********/
+.div_container_categoria_subcategoria{
+    min-height: 100px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+#div_nome_categoria, #div_nome_subcategoria, #div_select_categoria{
+    height: 100px;
+    width: 60%;
+    /* background-color: #00B2B2; */
+    float: left;
+    overflow: hidden;
+}
+
+#div_nome_subcategoria, #div_select_categoria{
+    width: 35%;
+}
+
+#div_submit_categoria, #div_submit_subcategoria{
+    height: 100px;
+    width: 40%;
+    /* background-color: #fae196; */
+    float: left;
+    margin-bottom: 50px;
+}
+
+#div_submit_categoria{
+    padding-left: 130px;
+}
+
+#div_titulo_categoria, #div_titulo_subcategoria, #div_titulo_select_categoria{
+    height: 30px;
+    width: 100%;
+    /* background-color: yellowgreen; */
+}
+
+#div_input_categoria, #div_input_subcategoria{
+    height: 70px;
+    width: 100%;
+    /* background-color: #000000; */
+}
+
+.inputsCategorias input{
+    width: 80%;
+    height: 60%;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid #E8C355;
+    font-size: 23px;
+    font-family: conforta;
+}
+
+#div_titulo_categoria h3, #div_titulo_subcategoria h3, #div_titulo_select_categoria h3{
+    color: black;
+    font-size: 26px;
+    font-family: 'amaticbold';
+    float: left;
+    margin-left: 10px;
+}
+
+#div_submit_subcategoria{
+    width: 30%;
+}
+
+#div_submit_categoria input, #div_submit_subcategoria input{
+    height: 50px;
+    width: 250px;
+    text-transform: uppercase;
+    background: none;
+    background-color: #E8C355;
+    border: 1px solid #E8C355;
+    border-radius: 5px;
+    /* font-weight: bold; */
+    letter-spacing: 3px;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+#div_input_subcategoria input{
+    width: 90%;
+}
+
+#div_select_categoria select{
+    height: 45%;
+    width: 90%;
+    background: none;
+    border:solid 1px #E8C355;
+    border-radius: 5px;
+    font-family: 'conforta';
+    font-size: 26px;
+}
+
+
